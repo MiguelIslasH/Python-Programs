@@ -80,7 +80,7 @@ elif (a[4]==0 and a[5]!=0):
 elif(a[4]==0 and a[5]==0):
 	print("Tiene infinidad de soluciones: ")
 #Aqui imprimimos una representación de la ecuación despejando X
-  if(a[0]>0):
-		print("x = (",a[2],"",-a[1],"y)/",a[0])
-	else:
-		print("x = (",-a[2],"",a[1],"y)/",-a[0])
+if(a[0]>0):
+	print("x = (",a[2],"",-a[1],"y)/",a[0])
+else:
+	print("x = (",-a[2],"",a[1],"y)/",-a[0])
